@@ -22,7 +22,7 @@ header h1.logo {
   font-size: 1.7em;
   color: yellow;
   text-transform: uppercase;
-  float: right;
+  float: left;
 }
 
 header h1.logo:hover {
