@@ -20,13 +20,13 @@ header {
 header h1.logo {
   margin: 0;
   font-size: 1.7em;
-  color: yellow;
+  color: blue;
   text-transform: uppercase;
   float: left;
 }
 
 header h1.logo:hover {
-  color: blue;
+  color: yellow;
   text-decoration: none;
 }
 
