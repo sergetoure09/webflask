@@ -14,7 +14,7 @@ def plot():
     Start=datetime(2016,10,1)
     End=datetime(2016,10,5)
     #data.DataReader?
-    df=data.DataReader(name="GOOG",data_source="yahoo",start=Start,end=End)
+    df=data.DataReader(name="GOOG",data_source="google",start=Start,end=End)
     df.index[df.Close>df.Open]
     p=figure(width=1000,height=300,x_axis_type='datetime',title="My candlestick chart")
     hours_12=12*60*60*1000
